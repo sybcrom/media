@@ -1,0 +1,44 @@
+.navbar{
+	border:none;
+	padding:0 40px 0 40px;
+
+}
+
+.navbar-default {
+	background-color: transparent;
+}
+
+.navbar-default .navbar-brand{
+	color:rgba(255,255,255,.7);
+}
+.navbar-default .nav>li>a:hover {
+	color: #fff;
+}
+
+.navbar-brand{
+	text-transform: uppercase;
+	color:#F05F40;
+}
+
+
+/*==========NAV============*/
+.active{
+	background: #13182C;
+}
+
+.hover{
+	color:#e5552d;
+}
+
+.selected{
+	color:#e5552d;
+}
+
+#contact{
+	padding:2px;
+	border: 1px solid #0b99cd;
+	border-radius: 70px;
+	a{
+		color:#0b99cd;
+	}
+}

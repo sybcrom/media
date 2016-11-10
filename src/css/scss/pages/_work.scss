@@ -1,0 +1,61 @@
+.work .paypal{
+	background-image: url('../img/paypal_hero-1894x1080.jpg');
+}
+
+.work .loreal{
+	background-image: url('../img/saloncentric_hero.jpg');
+}
+.work .letters{
+	background-image: url('../img/montessorium_hero.jpg');
+}
+
+.work .emc{
+	background-image: url('../img/syncplicity_hero.jpg');
+}
+
+.work .letters{
+	background-image: url('../img/montessorium_hero.jpg');
+}
+
+.work .paleo{
+	background-image: url('../img/nom_nom_bg_jpeg-1.jpg');
+}
+
+.work .staples{
+	background-image: url('../img/klub_hero.jpg');
+}
+
+.work .bouqs{
+	background-image: url('../img/klub_hero (1).jpg');
+}
+
+.work {
+	.paypal, .loreal, .letters, .emc, .paleo, .staples, .bouqs{
+		background-size: cover;
+		height: 500px;
+		position: relative;
+	}
+}
+
+.work .bloctitle{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	color: #fff;
+	a{
+		border: solid 1px #fff;
+		padding:4px;
+		border-radius: 70px;
+		text-decoration: none;
+		color: #fff;
+	}
+	a:hover{
+		border: solid 1px #0CABE5;
+		padding:10px;
+		border-radius: 70px;
+		text-decoration: none;
+		color: #fff;
+		background-color: #0CABE5;
+	}
+}

@@ -1,0 +1,43 @@
+header{
+
+	position: relative;
+	#vidtop{
+		height: auto;
+		width: 100%;
+		display: block;
+		position: relative;
+	}
+
+	.bloctitle{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%, -50%);
+		h3{
+			color:#fff;
+		}
+
+
+
+	}
+}
+
+.work header{
+	#heroimage{
+		background-image: url('../img/work_bg.jpg');
+		background-size: cover;
+		height: 500px;
+		position: relative;
+
+	}
+}
+
+.work header{
+	#heroimage{
+		background-image: url('../img/careers_header.jpg');
+		background-size: cover;
+		height: 500px;
+		position: relative;
+
+	}
+}

@@ -1,0 +1,46 @@
+html, body{
+	height: 100%;
+	box-sizing: border-box;
+}
+
+
+h1,h3,h4, a,p, span{
+	
+	text-align: center;
+}
+h4{
+	text-transform: uppercase;
+}
+h1, a{
+	text-transform: uppercase;
+	color:#fff;
+}
+p{
+	line-height: 1.8em;
+}
+
+header a{
+	width: 200px;
+	padding:15px;
+	border-radius: 70px;
+	border:#fff;
+	background:#0CABE5;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+}
+
+
+
+
+main .chiffre a{
+	width: 200px;
+	padding:15px;
+	border-radius: 70px;
+	border:#fff;
+	background:#fff;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	color:#0CABE5;
+}

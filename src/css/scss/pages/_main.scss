@@ -1,0 +1,206 @@
+.brand, .chiffre, .blocimage{
+	padding:50px 0 50px 0;
+}
+
+.main .brand{
+	background: #fff;
+	h3{
+		color:#000;
+	}
+	// .logoimage{
+	// 	display: flex;
+	// 	justify-content:center;
+	// 	flex-direction:row;
+	// 	img{
+	// 		align-content:center;
+	// 	}
+	// }
+	
+}
+
+.main .chiffre{
+	background-color: #0CABE5;
+	width: 100%;
+
+	h3,h4, p{
+		color:#fff;
+	}
+	.business{
+		margin: 80px 0 80px 0;
+	}
+}
+
+.main .blocimages{
+	width: 100%;
+	h4,p{
+		color:#fff;
+	}
+	a{
+		display: inline-block;
+	}
+
+	.carreun{
+		background:url('../img/paypal.jpg') no-repeat;
+		background-position: center;
+		background-size: cover;
+		overflow: hidden;
+		height: 400px;
+		position:relative;
+		filter: brightness(80%);
+		transition: all 0.3s;
+		.titre{
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform:translate(-50%, -50%);
+		}
+
+	}
+	.carreun:hover{
+
+	}
+	
+	.carretrois{
+		background:url('../img/3-apple-researchkit-1-500x500.jpg') no-repeat;
+		background-position: center;
+		background-size: cover;
+		overflow: hidden;
+		height: 400px;
+		position:relative;
+		filter: brightness(80%);
+		.titre{
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform:translate(-50%, -50%);
+		}
+
+	}
+	
+
+	.carrecinq{
+		background:url('../img/hybrid-native-header-500x500.jpg') no-repeat;
+		background-position: center;
+		background-size: cover;
+		overflow: hidden;
+		height: 400px;
+		position:relative;
+		filter: brightness(80%);
+		.titre{
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform:translate(-50%, -50%);
+		}
+
+	}
+	.carresix{
+		background:url('../img/6-syncplicity-1-500x500.jpg') no-repeat;
+		background-position: center;
+		background-size: cover;
+		overflow: hidden;
+		height: 400px;
+		position:relative;
+		filter: brightness(80%);
+		overflow: hidden;
+		.titre{
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform:translate(-50%, -50%);
+		}
+
+	}
+	
+	.carrehuit{
+		background: url("../img/8-steve-1-500x500.jpg")no-repeat;
+		background-position: center;
+		background-size: cover;
+		overflow: hidden;
+		height: 400px;
+		position:relative;
+		filter: brightness(80%);
+		.titre{
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform:translate(-50%, -50%);
+		}
+
+	}
+	.carreneuf{
+		background: url("../img/9-paleo-1-500x500.jpg")no-repeat;
+		background-position: center;
+		background-size: cover;
+		overflow: hidden;
+		height: 400px;
+		position:relative;
+		filter: brightness(80%);
+		.titre{
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform:translate(-50%, -50%);
+		}
+
+	}
+	.carredeux,.carrequatre, .carresept, .carredix, .carredouze{
+		height: 400px;
+		position:relative;
+		filter: brightness(80%);
+		.titre{
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform:translate(-50%, -50%);
+			img{
+				max-width: 150px;
+				max-height: 80px;
+			}
+		}
+
+	}
+	.carreonze{
+		background: url("../img/iot-header-1200-500x500.jpg")no-repeat;
+		background-position: center;
+		background-size: cover;
+		overflow: hidden;
+		height: 400px;
+		position:relative;
+		filter: brightness(80%);
+		.titre{
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform:translate(-50%, -50%);
+		}
+
+	}
+}
+
+.main .contact{
+	position:relative;
+	#vidbot{
+		height: auto;
+		width: 100%;
+		display: block;
+		position: relative;
+	}
+
+	.blocform{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%, -50%);
+		h3{
+			color:#fff;
+		}
+
+		button{
+			background: #555;
+			opacity: .5;
+			border:none;
+		}
+
+	}
+}
